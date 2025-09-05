@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+/* Set dark background and text for the entire page */
+body {
+    @apply bg-gray-900 min-h-screen;
+}
+
+
+
+button {
+    @apply transition-colors duration-300;
+}
